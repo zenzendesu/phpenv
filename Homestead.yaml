@@ -5,12 +5,12 @@ cpus: 1
 provider: virtualbox
 
 folders:
-    - map: .
+    - map: c:/Users/Dzaqwan Amir/Documents/Self Learn/PHP/hi_phpenv
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
-      to: /home/vagrant/Code/Project/public
+    - map: phpenv.app
+      to: /home/vagrant/Code/phpenv
 
 databases:
     - homestead
