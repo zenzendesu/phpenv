@@ -1,1 +1,1 @@
-<?php echo "This is the legendary Hello World!";
+<?php echo "Hello ".(isset($_GET['name']) ? $_GET['name'] : "World");
